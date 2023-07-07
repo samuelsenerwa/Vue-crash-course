@@ -1,6 +1,6 @@
 # Vue-crash-course
 Contains everything I taught myself about Vue Js
 
-# Introduction
+## Introduction
 - Setting up a vue application
 - Using vue CDN for a simple random user generator
