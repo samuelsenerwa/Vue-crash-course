@@ -31,9 +31,14 @@ img {
 
 }
 
-.male {
+.male{
     border-color: steelblue;
     background-color: steelblue;
+}
+
+.female {
+    border-color: pink;
+    background-color: pink;
 }
 
 button {
