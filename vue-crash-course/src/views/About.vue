@@ -1,3 +1,4 @@
 <template>
-    <h3>Implemented routers in Vue successfully</h3>
+    <h3>Routes</h3>
+    <router-link to="/">Go Back</router-link>
 </template>
