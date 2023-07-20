@@ -24,6 +24,7 @@ export default {
       tasks: [],
     }
   },
+  //make api calls from the json server
   methods: {
     async addTask(task) {
       const res = await fetch('api/tasks', {

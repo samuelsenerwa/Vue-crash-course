@@ -1,3 +1,4 @@
+<!-- TEMPLATE for the app -->
 <template>
   <div class="container">
     <Header
@@ -11,6 +12,7 @@
 </template>
 
 <script>
+// export and import the components for the vue app
 import Header from './components/Header'
 import Footer from './components/Footer'
 

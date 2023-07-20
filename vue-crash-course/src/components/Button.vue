@@ -1,7 +1,7 @@
 <template>
     <button @click="onClick()" :style="{background: color}" class="btn"> {{ text }}</button>
 </template>
-
+<!-- click button for add task or close -->
 <script>
     export default {
         name: 'Button',
