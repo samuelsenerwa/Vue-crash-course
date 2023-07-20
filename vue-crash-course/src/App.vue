@@ -1,37 +1,36 @@
 <template>
   <div class="container">
-  <Header @toggle-add-task="toggleAddTask" title="Task Tracker" :showAddTask="showAddTask"/>
-  <router-view></router-view>
-  <Footer />
+    <Header
+      @toggle-add-task="toggleAddTask"
+      title="Task Tracker"
+      :showAddTask="showAddTask"
+    />
+    <router-view :showAddTask="showAddTask"></router-view>
+    <Footer />
   </div>
-    
 </template>
 
 <script>
 import Header from './components/Header'
 import Footer from './components/Footer'
 
-
 export default {
-  name: "App",
+  name: 'App',
   components: {
     Header,
-    Footer
-    // Tasks,
-    // AddTask
+    Footer,
   },
   data() {
     return {
-      // tasks: [],
-      showAddTask: false
+      showAddTask: false,
     }
   },
   methods: {
     toggleAddTask() {
       this.showAddTask = !this.showAddTask
     },
-  }
-};
+  },
+}
 </script>
 
 <style>
@@ -49,7 +48,7 @@ body {
 
 .container {
   max-width: 500px;
-  margin: 30px;
+  margin: 30px auto;
   overflow: auto;
   min-height: 300px;
   border: 1px solid steelblue;
@@ -76,13 +75,11 @@ body {
 }
 
 .btn:active {
-  transform: scale(0.9);
+  transform: scale(0.98);
 }
 
 .btn-block {
   display: block;
   width: 100%;
 }
-
-
 </style>
