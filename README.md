@@ -10,3 +10,6 @@ Concept learnt are as follows:
 - Props
 - Creating components
 - Using mock data and rendering it as an object
+- backend integration using json server
+- routes and router
+- CRUD operation
